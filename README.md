@@ -33,10 +33,10 @@ This section delves into the emotional tone embedded within the text:
 ## Technologies Used
 
 * Python
-* NLTK (Natural Language Toolkit) - *likely for tokenization, stop word removal, and sentiment analysis (e.g., VADER or TextBlob)*
+* NLTK (Natural Language Toolkit) - *for tokenization, stop word removal, and sentiment analysis (e.g., VADER or TextBlob)*
 * `re` (Regular Expressions) - *for pattern matching like chapter detection*
-* (Potentially) Pandas - *for data handling and analysis*
-* (Potentially) Matplotlib or Plotly - *for visualizations if sentiment trends are plotted*
+*  Pandas - *for data handling and analysis*
+*  Matplotlib or Plotly - *for visualizations*
 
 ## How It Works
 
@@ -47,7 +47,7 @@ The analysis process typically involves the following steps:
     * The text is tokenized (broken down into words and sentences).
     * Punctuation is handled.
     * Text is converted to lowercase for consistent analysis.
-    * Common "stop words" (e.g., "the", "is", "and") might be removed for certain analyses.
+    * Common "stop words" (e.g., "the", "is", "and") are removed for certain analyses.
 3.  **Basic Analysis Calculations:**
     * Counts (words, characters, sentences) are performed directly on the processed text.
     * Word frequency distributions are calculated.
